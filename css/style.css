@@ -1,1 +1,148 @@
-@charset "utf-8";
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul li {
+  list-style: none;
+}
+/* 전체 영역 */
+.container {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-color: red;
+}
+/* 헤더 */
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+}
+/* 로고 */
+.logo{
+    width: 200px;
+    height: 100%;
+    background-color: yellow;
+    float: left;
+}
+/* 상단메뉴 */
+nav{
+    width: 1000px;
+    height: 100%;
+    position: relative;
+    float: right;
+    background-color: green;
+}
+nav .topmenu{
+    width: 600px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 370px;
+    background-color: skyblue;
+}
+.topmenu li{
+    float: left;
+    width: calc(100% / 4);
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    border-right: 1px solid white;
+    line-height: 60px;
+}
+.topmenu li:last-child{
+    border: none;
+}
+
+/* 메인 */
+main{
+    /* position: relative; */
+    width: 100%;
+    height: 500px;
+    background-color: blue;
+}
+/* 섹션1 */
+.sec_1{
+    /* position: absolute;
+    top: 0; */
+    width: 100%;
+    height: 300px;
+    background-color: blueviolet;
+}
+/* 섹션2 */
+.sec_2{
+    width: 100%;
+}
+.sec_2 div{
+    width: calc(100% / 3);
+    height: 200px;
+    float: left;
+}
+.notice{
+    background-color: orange;
+    height: 100%;
+}
+.banner{
+    background-color: rgb(130, 192, 31);
+    height: 100%;
+}
+.go{
+    background-color: rgb(31, 156, 198);
+    height: 100%;
+}
+
+/* 하단 */
+footer{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    float: left;
+    background-color: pink;
+}
+.copyright{
+    width: calc(100% -400px);
+    height: 100%;
+    background-color: cornflowerblue;
+}
+.sns{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 100%;
+    float: right;
+    background-color: darksalmon;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .sec_2 div{
+    float: left;
+    width: calc(100% / 3);
+    height: 200px;
+}
+.notice{
+    
+    height: 100%;
+    background-color: greenyellow;
+}
+.banner{
+   
+    height: 100%;
+    background-color: goldenrod;
+} */
+/* 하단 */
+
